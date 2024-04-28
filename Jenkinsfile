@@ -1,5 +1,6 @@
 pipeline {
    options { disableConcurrentBuilds() }
+   agent any
    environment {
         PLUGIN_INTEGRATION_TEST_INSTANCE="/home/jenkins-agent/instance_config.json"
     }
